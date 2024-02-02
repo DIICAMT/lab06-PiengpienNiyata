@@ -1,4 +1,4 @@
-package org.dii.oop.lesson06.exercise01;
+package app.src.main.java.org.dii.oop.lesson06.exercise01;
 
 import java.util.Scanner;
 import java.util.ArrayList; //this exercise MUST use arrayList
@@ -10,13 +10,19 @@ public class Lesson {
 
         //HINT2: you may want to declare your arrayList around here
 
+        ArrayList<org.dii.oop.Shape> shapes = new ArrayList<>(); // ArrayList to store shapes
         Scanner in = new Scanner(System.in);
 
         do {
             System.out.println();
-            //print menu as instructed in MD file
-
+            System.out.println("1. Create Circle");
+            System.out.println("2. Create Rectangle");
+            System.out.println("3. Create Square");
+            System.out.println("4. List all shapes");
+            System.out.println("5. Exit");
+            System.out.print("Please select [1-5]: ");
             String choice = in.nextLine().trim();
+
 
             // TODO: write your code here
 

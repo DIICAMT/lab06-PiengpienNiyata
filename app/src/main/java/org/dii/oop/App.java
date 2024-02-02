@@ -1,8 +1,10 @@
-package org.dii.oop;
+package app.src.main.java.org.dii.oop;
 
 import org.dii.oop.lesson06.exercise01.Lesson;
+
 public class App {
     public static void main(String[] args) {
-        lesson.run();
+
+        Lesson.run();
     }
 }

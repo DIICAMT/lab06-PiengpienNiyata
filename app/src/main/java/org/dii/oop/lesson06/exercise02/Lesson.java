@@ -1,4 +1,4 @@
-package org.dii.oop.lesson06.exercise02;
+package app.src.main.java.org.dii.oop.lesson06.exercise02;
 
 import java.util.Scanner;
 import java.util.ArrayList; //this exercise MUST use extended version of arrayList
